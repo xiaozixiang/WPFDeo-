@@ -1,0 +1,4 @@
+﻿<DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Button Name="button1" Margin="60" Width="68">点我</Button>
+    
+</DockPanel>

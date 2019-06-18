@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+   
+    <TextBlock x:Key="txtbolck1" Name="txt1" Text="nihoa" FontSize="14" Background="Red"/>
+    <TextBlock x:Key="txtbolck2" Name="txt2" Text="ziyuan2" FontSize="18" Background="DodgerBlue"/>
+    <ImageBrush  x:Key="image" Opacity="5" TextBlock.FontSize="18"  ImageSource="Resource/2.jpg" TileMode="FlipX"/>
+</ResourceDictionary>

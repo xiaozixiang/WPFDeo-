@@ -1,0 +1,15 @@
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.csprojResolveAssemblyReference.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\MainWindow.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\Window1.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\MainWindow.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\App.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2_MarkupCompile.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.g.resources
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.Properties.Resources.resources
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.csproj.GenerateResource.Cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\bin\Debug\WpfDemo2.exe.config
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\bin\Debug\WpfDemo2.exe
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\bin\Debug\WpfDemo2.pdb
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\Window1.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.exe
+F:\website\WPFDemo\WpfDemo1\WpfDemo2\obj\Debug\WpfDemo2.pdb
