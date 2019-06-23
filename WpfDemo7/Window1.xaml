@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfDemo7.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="300" Width="334.328">
+    <Window.Triggers>
+        <EventTrigger  SourceName="BeginStory" RoutedEvent="Button.Click">
+            <BeginStoryboard Name="beingstroyboard" >
+                <Storyboard CurrentTimeInvalidated="Storyboard_CurrentTimeInvalidated" >
+                    <DoubleAnimation Storyboard.TargetName="Picture2" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:10"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+        <EventTrigger SourceName="pasue" RoutedEvent="Button.Click">
+            <PauseStoryboard BeginStoryboardName="beingstroyboard"></PauseStoryboard>
+        </EventTrigger>
+        <EventTrigger SourceName="Recover" RoutedEvent="Button.Click">
+            <ResumeStoryboard BeginStoryboardName="beingstroyboard"></ResumeStoryboard>
+        </EventTrigger>
+        <EventTrigger SourceName="Stop" RoutedEvent="Button.Click">
+            <StopStoryboard BeginStoryboardName="beingstroyboard"></StopStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Image Source="Resources/1.png" Stretch="Fill"></Image>
+            <Image Source="Resources/3.jpg" Stretch="Fill"  Name="Picture2"></Image> <!--0表示完全透明 1完全不透明-->
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Margin="5" Name="BeginStory">StratStory</Button>
+            <Button Margin="5" Name="pasue">PasueStory</Button>
+            <Button Margin="5" Name="Recover">RecoverStory</Button>
+            <Button Margin="5" Name="Stop">StopStory</Button>
+        </StackPanel>
+        <ProgressBar Grid.Row="2"  Height="20" Name="progressbar" Minimum="0" Maximum="1"></ProgressBar>
+    </Grid>
+</Window>
