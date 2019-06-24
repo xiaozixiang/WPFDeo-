@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfDemo5Image.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Window1" Height="300" Width="600">
+    <Window.Resources >
+        <BeginStoryboard  x:Key="BeginStoryBoard" >
+            <Storyboard Timeline.DesiredFrameRate="{Binding ElementName=begin, Path=Text}">
+                        <DoubleAnimation Storyboard.TargetName="Elipses" Storyboard.TargetProperty="(Canvas.Left)" From="0" To="500" AutoReverse="True" Duration="0:0:5"></DoubleAnimation>
+                        <DoubleAnimation Storyboard.TargetName="Elipses" Storyboard.TargetProperty="(Canvas.Top)" From="300" To="0" AutoReverse="True" Duration="0:0:3"></DoubleAnimation>
+                    </Storyboard>
+                </BeginStoryboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <EventTrigger.Actions>
+                <StaticResource ResourceKey="BeginStoryBoard"></StaticResource>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="LightCyan">
+            <Canvas ClipToBounds="True">
+                <Ellipse Height="20" Width="20" Stroke="Red" Fill="Red" Name="Elipses" ></Ellipse>
+            </Canvas>
+        </Border>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" Orientation="Horizontal">
+            <TextBlock>SetTimeline</TextBlock>
+            <TextBox Margin="5,0,0,0" Width="80" Text="60" Name="begin"></TextBox>
+        </StackPanel>
+        <Button Grid.Row="2" Height="40" Content="开始故事版" HorizontalAlignment="Center"  >
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Button.Click">
+                    <StaticResource ResourceKey="BeginStoryBoard"></StaticResource>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+    </Grid>
+</Window>

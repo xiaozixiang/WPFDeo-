@@ -1,8 +1,0 @@
-﻿<Window x:Class="WpfDemo5Image.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Image Stretch="Fill" Source="Image/3.jpg" />
-    </Grid>
-</Window>
