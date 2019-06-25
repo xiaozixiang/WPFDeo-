@@ -27,7 +27,7 @@
                         <Storyboard>
                             <DoubleAnimation Storyboard.TargetProperty="Effect.Radius" To="20" Duration="0:0:0.2"></DoubleAnimation>
                         </Storyboard>
-                    </BeginStoryboard>
+                    </BeginStoryboard> 
                 </EventTrigger>
             </Style.Triggers>
         </Style>
