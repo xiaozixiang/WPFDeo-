@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfDemo8.PathDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PathDemo" Height="700" Width="600">
+    <Window.Resources>
+        <PathGeometry x:Key="path">
+            <PathFigure IsClosed="True">
+                <ArcSegment Point="100,200" Size="15,20" SweepDirection="Clockwise"></ArcSegment>
+                <ArcSegment Point="400,500" Size="5,5"></ArcSegment>
+            </PathFigure>
+        </PathGeometry>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="Window.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimationUsingPath Storyboard.TargetName="image" Storyboard.TargetProperty="(Canvas.Left)" PathGeometry="{StaticResource path}" Duration="0:0:5" RepeatBehavior="Forever" Source="X"></DoubleAnimationUsingPath>
+                    <DoubleAnimationUsingPath Storyboard.TargetName="image" Storyboard.TargetProperty="(Canvas.Top)" PathGeometry="{StaticResource path}" Duration="0:0:5" RepeatBehavior="Forever" Source="Y"></DoubleAnimationUsingPath>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <Canvas Margin="10">
+        <Path Stroke="Red" StrokeThickness="1" Data="{StaticResource path}" Canvas.Left="15" Canvas.Top="25"></Path>
+        <Image Name="image">
+            <Image.Source>
+                <DrawingImage>
+                    <DrawingImage.Drawing>
+                        <GeometryDrawing Brush="LightSteelBlue">
+                            <GeometryDrawing.Geometry>
+                                <GeometryGroup>
+                                    <EllipseGeometry Center="10,10" RadiusX="9" RadiusY="4"></EllipseGeometry>
+                                    <EllipseGeometry Center="10,10" RadiusX="4" RadiusY="9"></EllipseGeometry>
+                                </GeometryGroup>
+                            </GeometryDrawing.Geometry>
+                            <GeometryDrawing.Pen>
+                                <Pen Thickness="1" Brush="Black"></Pen>
+                            </GeometryDrawing.Pen>
+                        </GeometryDrawing>
+                    </DrawingImage.Drawing>
+                </DrawingImage>
+            </Image.Source>
+        </Image>
+    </Canvas>
+</Window>

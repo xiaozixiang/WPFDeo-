@@ -31,10 +31,6 @@
                 </EventTrigger>
             </Style.Triggers>
         </Style>
-        
-        
-            
-       
     </Window.Resources>
     <Grid>
         <StackPanel>
