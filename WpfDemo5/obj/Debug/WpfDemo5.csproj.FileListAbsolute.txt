@@ -1,5 +1,4 @@
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\bin\Debug\WpfDemo5.exe.config
-F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\WpfDemo5.csprojResolveAssemblyReference.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\MainWindow.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\MainWindow.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\App.g.cs
@@ -17,3 +16,5 @@ F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\App.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\xian.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\VisualDemo.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\VisualDemo.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\WpfDemo5.csprojAssemblyReference.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo5\obj\Debug\WpfDemo5.csproj.CoreCompileInputs.cache

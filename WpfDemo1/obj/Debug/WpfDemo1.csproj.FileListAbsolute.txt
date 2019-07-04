@@ -1,7 +1,6 @@
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\bin\Debug\WpfDemo1.exe.config
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\bin\Debug\WpfDemo1.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\bin\Debug\WpfDemo1.pdb
-F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.csprojResolveAssemblyReference.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\MainWindow.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\MainWindow.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\App.g.cs
@@ -12,3 +11,5 @@ F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.csproj.GenerateResource.
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.pdb
 F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\UserControl1.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.csprojAssemblyReference.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo1\obj\Debug\WpfDemo1.csproj.CoreCompileInputs.cache

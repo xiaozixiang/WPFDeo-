@@ -1,7 +1,6 @@
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\bin\Debug\WpfDemoBanding.exe.config
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\bin\Debug\WpfDemoBanding.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\bin\Debug\WpfDemoBanding.pdb
-F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.csprojResolveAssemblyReference.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\MainWindow.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\MainWindow.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\App.g.cs
@@ -11,3 +10,11 @@ F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.Properties.R
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.csproj.GenerateResource.Cache
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.pdb
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.csprojAssemblyReference.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\RadioButton.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\Vista.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\App.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\test.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding_MarkupCompile.lref
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\test.baml
+F:\website\WPFDemo\WpfDemo1\WpfDemoBanding\obj\Debug\WpfDemoBanding.csproj.CoreCompileInputs.cache

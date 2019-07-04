@@ -10,6 +10,7 @@ F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image.pdb
 F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image_Content.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\bin\Debug\Image\4.jpg
-F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image.csprojResolveAssemblyReference.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\Window1.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\Window1.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image.csprojAssemblyReference.cache
+F:\website\WPFDemo\WpfDemo1\WpfDemo5Image\obj\Debug\WpfDemo5Image.csproj.CoreCompileInputs.cache

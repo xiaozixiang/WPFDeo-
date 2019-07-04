@@ -1,7 +1,6 @@
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\bin\Debug\WpfDemo7.exe.config
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\bin\Debug\WpfDemo7.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\bin\Debug\WpfDemo7.pdb
-F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7.csprojResolveAssemblyReference.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\App.g.cs
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7_MarkupCompile.cache
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7.g.resources
@@ -11,3 +10,4 @@ F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7.exe
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7.pdb
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\Window1.baml
 F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\Window1.g.cs
+F:\website\WPFDemo\WpfDemo1\WpfDemo7\obj\Debug\WpfDemo7.csproj.CoreCompileInputs.cache
